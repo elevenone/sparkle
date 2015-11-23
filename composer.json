@@ -2,7 +2,7 @@
     "config": {
         "vendor-dir": "system"
     },
-    "name": "elevenone/sparkling-in-the-rain",
+    "name": "elevenone/sparkle",
     "description": "A sample project for building an application using Spark.",
     "type": "project",
     "license": "MIT",
