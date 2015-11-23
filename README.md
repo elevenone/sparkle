@@ -1,6 +1,6 @@
 # Spark
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/sparkphp/spark.svg)](https://packagist.org/packages/elevenone/sparkling-in-the-rain)
+
 
 Spark is a PSR-7 compliant [Action-Domain-Responder](https://github.com/pmjones/adr)
 (ADR) system. While it may look like a micro-framework (and it is), it is more like a
