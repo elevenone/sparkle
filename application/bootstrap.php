@@ -35,6 +35,9 @@ $injector->prepare(
 		// plates
 		$router->get('/plates[/{name}]', 'Spark\\Project\\Domain\\Plates');
 
+		// static page
+		$router->get('/staticpage[/{name}]', 'Spark\\Project\\Domain\\StaticPage');
+
 		// custom responder
 		$router->get('/zzz[/{name}]', 'Spark\\Project\\Domain\\Hello')->setResponder('Spark\\Project\\Responders\\Responder');
 
