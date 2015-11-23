@@ -27,8 +27,7 @@ class PlatesConfiguration implements ConfigurationInterface
     {
         // Add folders
         $engine->addFolder('templates', APPPATH.'templates');
-        // $engine->addFolder('partials', APPPATH.'templates/partials');
-        // $engine->addFolder('static', APPPATH.'templates/static');
-
+        $engine->addFolder('partials', APPPATH.'templates/partials');
+        $engine->addFolder('staticpages', APPPATH.'templates/staticpages');
     }
 }
