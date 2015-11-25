@@ -17,6 +17,13 @@ cd spark-project
 php -S localhost:8000 -t web/
 ```
 
+Pick a project name, and use Composer to create it with Spark. Let's create
+one called `spark-project`:
+
+```bash
+composer create-project -s dev elevenone/sparkle sparkle-project
+```
+
 You can then browse to <http://localhost:8000/hello> and see JSON output:
 
 ```json
