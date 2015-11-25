@@ -21,7 +21,7 @@ built-in PHP web server:
 
 ```bash
 cd spark-project
-php -S localhost:8000 -t web/
+php -S localhost:8000 -t public/
 ```
 
 You can then browse to <http://localhost:8000/hello> and see JSON output:
