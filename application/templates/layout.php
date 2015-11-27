@@ -13,33 +13,31 @@
 </head>
 <body>
 
-
-
 <nav>
 <ul>
-<?php $this->insert('partials/navigation') ?>
+<?php $this->insert('partials::navigation') ?>
 </ul>
 </nav>
 
+
+
 <section>
-
 <h2>h2 title</h2>
-
 
 <article>
 
 <div>
-Hello <?php // include $this->e($name) ; ?>!
+Hello <?php echo $this->e($name); ?>!
 </div>
-
-
 
 </article>
 
 </section>
 
+
+
 <footer>
-<?php $this->insert('partials/footer') ?>
+<?php $this->insert('partials::footer') ?>
 </footer>
 
 
