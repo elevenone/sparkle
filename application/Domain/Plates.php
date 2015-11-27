@@ -34,7 +34,7 @@ class Plates implements DomainInterface
         return $this->payload
             ->withStatus(PayloadInterface::OK)
             ->withOutput([
-				'template' => 'templates::hello',
+				'template' => 'templates::layout',
                 'name' => $name,
             ]);
     }

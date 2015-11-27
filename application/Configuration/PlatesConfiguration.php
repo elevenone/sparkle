@@ -25,6 +25,9 @@ class PlatesConfiguration implements ConfigurationInterface
 
     public function prepareEngine(Engine $engine)
     {
+		// set file extension
+		// $engine->setFileExtension('php');
+
         // Add folders
         $engine->addFolder('templates', APPPATH.'templates');
         $engine->addFolder('partials', APPPATH.'templates/partials');

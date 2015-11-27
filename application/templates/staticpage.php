@@ -29,7 +29,12 @@
 <article>
 
 <div>
-$this->insert( 'staticpages::' . $this->e( $name ) ) ?>
+<?php
+	if ($this->exists( 'staticpages::' . $this->e( $name ) )) {
+		// It exists!
+		$this->insert( 'staticpages::' . $this->e( $name ) );
+	}
+?>
 </div>
 
 </article>
