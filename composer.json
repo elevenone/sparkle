@@ -7,7 +7,7 @@
     "type": "project",
     "license": "MIT",
     "require": {
-        "sparkphp/spark": "^0.9",
+        "sparkphp/spark": "^0.10"
         "league/plates": "^3.1"
     },
     "autoload": {
@@ -18,7 +18,9 @@
     "authors": [
         {
             "name": "Zsolt Sándor",
-            "email": "zsolt.sandor@gmx.com"
+            "email": "zsolt.sandor@gmx.com",
+            "name": "Daniel Olfelt",
+            "email": "dolfelt@gmail.com"
         }
     ]
 }
