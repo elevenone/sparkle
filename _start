@@ -1,2 +1,11 @@
+#!/bin/bash
+
 # export PATH=/usr/local/php5/bin:$PATH
-php -S localhost:8000 -t public/
+
+PORT="8000"
+
+if [ -n "$1" ]; then
+    PORT="$1"
+fi
+
+php -S localhost:$PORT -t web/ web/index.php
